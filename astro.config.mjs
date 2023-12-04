@@ -5,7 +5,6 @@ import react from "@astrojs/react";
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind(), react()],
-  output: "static",
-  site: 'https://ah_chambers_of_law.github.io',
+  site: 'https://suryaavala.com/ah_chambers_of_law.github.io',
   
 });
