@@ -6,5 +6,6 @@ import react from "@astrojs/react";
 export default defineConfig({
   integrations: [tailwind(), react()],
   output: "static",
+  site: 'https://ah_chambers_of_law.github.io',
   
 });
