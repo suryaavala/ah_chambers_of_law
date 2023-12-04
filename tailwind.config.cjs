@@ -7,11 +7,13 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        hero: "url('/banner.png')",
-        main: "url('/Background.jpg')",
-        about: "url('/aboutpage-bg.png')",
-        services: "url('/servicespage-bg.jpg')",
-        contact: "url('/contactpage-bg.jpg')",
+        // SSR rendering issue https://github.com/tailwindlabs/tailwindcss/discussions/3113#discussioncomment-218172
+        // TODO: potentiall mv public/* to src/assets/* and use relative path
+        hero: "url('/public/banner.png')",
+        main: "url('/public/Background.jpg')",
+        about: "url('/public/aboutpage-bg.png')",
+        services: "url('/public/servicespage-bg.jpg')",
+        contact: "url('/public/contactpage-bg.jpg')",
       },
       fontFamily: {
         dm: ["DM Serif Display", "serif"],
