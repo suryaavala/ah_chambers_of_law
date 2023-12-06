@@ -9,7 +9,8 @@ const Footer = () => {
     <footer className="mt-[135px] w-full">
       <div className="w-full max-w-[1200px] px-12 xl:px-0 mx-auto pb-[135px] grid grid-cols-1 lg:grid-cols-5 md:grid-cols-2 gap-6">
         {/* start */}
-        <div className="col-span-1 md:col-span-2">
+        <div className="col-span-1 md:col-span-2 max-w-xs">
+          {/* <div className="flex flex-row"> */}
           <a href="/" className="">
             <Logo />
           </a>
@@ -17,6 +18,7 @@ const Footer = () => {
             It is a long established fact that a reader will be distracted
             lookings.
           </p>
+          {/* </div> */}
           <div className="flex gap-5 md:gap-[54px]">
             <a href="/">
               <Facebook />
