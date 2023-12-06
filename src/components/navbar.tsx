@@ -7,11 +7,14 @@ const Navbar = () => {
   const [toggled, setToggled] = useState(false);
   const matches = useMediaQuery("(min-width: 1280px)");
 
-  const linkStyle = "text-xl leading-6 font-jost text-primary-200";
+  const linkStyle = "text-xl leading-6 font-jost text-primary-200 lg:text-2xl";
 
   return (
     <div className="max-w-[1200px] px-12 xl:px-0 m-auto w-full py-11 flex justify-between items-center">
-      <a href="/">
+      <a
+        href="/"
+        className="lg:max-w-[29%] md:max-w-[43%] max-w-[69%] flex-auto flex-row"
+      >
         {" "}
         <Logo />
       </a>
