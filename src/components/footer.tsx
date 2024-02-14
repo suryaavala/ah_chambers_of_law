@@ -15,11 +15,10 @@ const Footer = () => {
             <Logo />
           </a>
           <p className="tracking-tight text-base lg:text-[22px] lg:leading-[33px] font-jost text-text-gray pt-[18px] pb-[33px]">
-            It is a long established fact that a reader will be distracted
-            lookings.
+            Your beacon in the realm of legal solutions.
           </p>
           {/* </div> */}
-          <div className="flex gap-5 md:gap-[54px]">
+          {/* <div className="flex gap-5 md:gap-[54px]">
             <a href="/">
               <Facebook />
             </a>
@@ -32,7 +31,7 @@ const Footer = () => {
             <a href="/">
               <Instagram />
             </a>
-          </div>
+          </div> */}
         </div>
         <div className="col-span-1 flex flex-col gap-4">
           <h5 className="text-primary-200 font-dm text-[22px] lg:text-[25px] leading-loose">
@@ -45,12 +44,12 @@ const Footer = () => {
             >
               About Us
             </a>
-            <a
+            {/* <a
               href="/services"
               className="tracking-tight text-base lg:text-[22px] lg:leading-[33px] font-jost text-text-gray"
             >
               Services
-            </a>
+            </a> */}
             <a
               href="/contact"
               className="tracking-tight text-base lg:text-[22px] lg:leading-[33px] font-jost text-text-gray"
@@ -59,7 +58,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="col-span-1 flex flex-col gap-4">
+        {/* <div className="col-span-1 flex flex-col gap-4">
           <h5 className="text-primary-200 font-dm text-[22px] lg:text-[25px] leading-loose">
             Services
           </h5>
@@ -77,20 +76,21 @@ const Footer = () => {
               Bedroom
             </p>
           </div>
-        </div>
+        </div> */}
         <div className="col-span-1 flex flex-col gap-4">
           <h5 className="text-primary-200 font-dm text-[22px] lg:text-[25px] leading-loose">
             Contact
           </h5>
           <div className="flex flex-col gap-6">
             <p className="tracking-tight text-base lg:text-[22px] lg:leading-[33px] font-jost text-text-gray">
-              55 East Birchwood Ave. Brooklyn, New York 11201
+              Flat No. 601, <br></br>Pent House, Whisper Meadows Apartment,
+              Prabhu Nagar, Poranki, Krishna District - 521137
             </p>
             <p className="tracking-tight text-base lg:text-[22px] lg:leading-[33px] font-jost text-text-gray">
-              contact@interno.com
+              ahchambersoflaw@gmail.com
             </p>
             <p className="tracking-tight text-base lg:text-[22px] lg:leading-[33px] font-jost text-text-gray">
-              (123) 456 - 7890
+              Phone: 9000907575,&emsp;8142486668
             </p>
           </div>
         </div>

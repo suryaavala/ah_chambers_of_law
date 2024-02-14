@@ -28,9 +28,9 @@ const Navbar = () => {
           <a href="/about" className={linkStyle}>
             About Us
           </a>
-          <a href="/services" className={linkStyle}>
+          {/* <a href="/services" className={linkStyle}>
             Services
-          </a>
+          </a> */}
           <a href="/contact" className={linkStyle}>
             Contact Us
           </a>
